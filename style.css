@@ -35,7 +35,7 @@ body {
 /*JUMBOTRON*/
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
-  background: #006400 /*#31b0d5; /*background color to blue*/
+  background: #006400; /*#31b0d5; /*background color to blue*/
   margin-bottom: 0; /*no bottom margin*/
 
   display: flex;
@@ -236,7 +236,7 @@ h4 {
 
 /*CONTACT*/
 .blue {
-  background: #3498db;
+  background: #006400/*#3498db */;
   text-align: center;
 }
 
