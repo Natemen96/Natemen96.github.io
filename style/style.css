@@ -10,7 +10,7 @@ body {
 
 /*NAVBAR*/
 .navbar {
-  background-color: #006400; /*#31b0d5; */
+  background-color: #c0c0c0; /*#006400; /*#31b0d5; */
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -20,7 +20,7 @@ body {
 
 .navbar a {
   font-weight: 200;
-  color: white;
+  color: #00008b;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -35,7 +35,7 @@ body {
 /*JUMBOTRON*/
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
-  background: #006400; /*#31b0d5; /*background color to blue*/
+  background: #c0c0c0; /*#006400; /*#31b0d5; /*  /*background color to sliver, green, blue*/
   margin-bottom: 0; /*no bottom margin*/
 
   display: flex;
@@ -46,7 +46,7 @@ body {
   /*TAGLINE UNDER NAME*/
   font-weight: 400;
   font-size: 2em;
-  color: white;
+  color: #00008b;
   text-align: center;
   padding-top: 150px;
 }
@@ -144,7 +144,7 @@ body {
 h2 {
   font-weight: 200;
   font-size: 2rem;
-  color: #006400; /*#31b0d5; */
+  color: #c0c0c0; /* #006400; /*#31b0d5; */
   text-transform: uppercase;
   text-align: center;
 }
@@ -228,7 +228,7 @@ h4 {
   margin: 7px;
   padding: 5px 10px;
   color: white;
-  background: #006400; /*#31b0d5; */
+  background: #c0c0c0; /*#006400; /*#31b0d5; */
   list-style: none;
   cursor: default;
   font-size: 1.2em;
@@ -236,7 +236,7 @@ h4 {
 
 /*CONTACT*/
 .blue {
-  background: #006400/*#3498db */;
+  background: #c0c0c0; /* #006400/*#3498db */;
   text-align: center;
 }
 
@@ -252,7 +252,7 @@ h4 {
   border-radius: 4px;
   border: none;
   margin-bottom: 10px;
-  background: #1d6fa5;
+  background: #fffaf0; /* #1d6fa5; */
   color: #fff;
   -webkit-transition: .5s ease all;
   transition: .5s ease all;
@@ -270,7 +270,7 @@ h4 {
   border-radius: 4px;
   padding: 5px 10px;
   border: none;
-  color: #006400; /*#3498db; */
+  color: #c0c0c0; /* #006400; /*#3498db; */
   font-weight: 700;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   -webkit-transition: .5s ease all;
