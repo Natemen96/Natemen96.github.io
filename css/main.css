@@ -34,15 +34,13 @@ ul.posts li { list-style: none; }
 .cv .download { float: right; font-size: .8em; text-transform: uppercase; }
 
 
-/*CONTACT*/
-/* .blue {
-    /* background: #3F4437; 
-     text-align: center; 
-}  */
-  
+/*CONTACT*/  
 .contact {
-    max-width: 500px;
-    margin: 0 auto;
+    display: inline-block;
+    /* max-width: 500px; */
+    width: 540px;
+    /* margin: 0 auto; */
+    justify-content: left;
 }
   
 .contact input, .contact textarea {
@@ -54,8 +52,9 @@ ul.posts li { list-style: none; }
     margin-bottom: 10px;
     background: #F6F4F0; /*#fffaf0; #1d6fa5; */
     /* color: #373F44; */
-    -webkit-transition: .5s ease all;
-    transition: .5s ease all;
+    /* -webkit-transition: .5s ease all;
+    transition: .5s ease all; */
+
 }
   
 .contact textarea {
@@ -65,14 +64,15 @@ ul.posts li { list-style: none; }
   
 .contact button {
     display: block;
-    width: 100%;
+    width: 104%;
     background: #fff;
-    border-radius: 4px;
-    padding: 5px 10px;
+    /* border-radius: 4px; */
+    /* padding: 5px 10px; */
     border: none;
     color: #3F4437; /* #006400; /*#3498db; */
     font-weight: 700;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    -webkit-transition: .5s ease all;
-    transition: .5s ease all;
+    margin-bottom: 10px;
+    /* -webkit-transition: .5s ease all;
+    transition: .5s ease all; */
 }

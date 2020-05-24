@@ -3,7 +3,12 @@ name: Nathan Ankomah-Mensah Website
 markdown: redcarpet
 redcarpet:
   extensions: ["strikethrough"]
+katex: true
 permalink: /blog/:year/:month/:day/:title
-baseurl: ""
+baseurl: "/about"
+baseurl: "/blog"
+baseurl: "/cv"
 url: "https://Natemen96.github.io"
+
+
 theme: jekyll-theme-dinky
