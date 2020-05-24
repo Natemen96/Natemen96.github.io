@@ -1,7 +1,9 @@
-theme: jekyll-theme-dinky
 name: Nathan Ankomah-Mensah Website
 # markdown: kramdown
 markdown: redcarpet
 redcarpet:
   extensions: ["strikethrough"]
 permalink: /blog/:year/:month/:day/:title
+baseurl: 
+url:
+theme: jekyll-theme-dinky
