@@ -4,6 +4,6 @@ markdown: redcarpet
 redcarpet:
   extensions: ["strikethrough"]
 permalink: /blog/:year/:month/:day/:title
-baseurl: 
-url:
+baseurl: ""
+url: "https://Natemen96.github.io"
 theme: jekyll-theme-dinky
