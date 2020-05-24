@@ -27,7 +27,7 @@
         let userAvatar = document.createElement( 'img' );
         userAvatar.classList.add( 'avatar' );
         userAvatar.setAttribute( 'src', response.user.avatar_url );
-    
+        userAvatar.setAttribute('width', '150px');
         user.appendChild( userAvatar );
     
         let commentLink = document.createElement( 'a' );
@@ -58,6 +58,6 @@
     <div class="github-comments">
         <h2>Comments</h2>
         <ul id="gh-comments-list"></ul>
-        <p id="no-comments-found">No comments found for this article. Comments posted before 2019-09-15 are no longer available due to a system migration since I no longer use Disqus for comments.</p>
-        <p id="leave-a-comment">Join the discussion for this article on <a href="https://github.com/aristath/aristath.github.com/issues/5">this ticket</a>. Comments appear on this page instantly.</p>
+        <!-- <p id="no-comments-found">No comments found for this article. Comments posted before 2019-09-15 are no longer available due to a system migration since I no longer use Disqus for comments.</p> -->
+        <p id="leave-a-comment">Join the discussion for this article on <a href="https://github.com/Natemen96/Natemen96.github.io/issues/1">this ticket</a>. Comments appear on this page instantly.</p>
     </div>
