@@ -1,3 +1,8 @@
+---
+---
+
+@import "{{ site.theme }}";
+
 body { margin: 60px auto; width: 70%; }
 
 a { text-decoration: none; color: #999; }
@@ -30,10 +35,10 @@ ul.posts li { list-style: none; }
 
 
 /*CONTACT*/
-.blue {
-    /* background: #3F4437; /* #006400#3498db; */
-    text-align: center;
-}
+/* .blue {
+    /* background: #3F4437; 
+     text-align: center; 
+}  */
   
 .contact {
     max-width: 500px;
@@ -47,7 +52,7 @@ ul.posts li { list-style: none; }
     border-radius: 4px;
     border: none;
     margin-bottom: 10px;
-    /* background: #F6F4F0;#fffaf0; #1d6fa5; */
+    background: #F6F4F0; /*#fffaf0; #1d6fa5; */
     /* color: #373F44; */
     -webkit-transition: .5s ease all;
     transition: .5s ease all;
