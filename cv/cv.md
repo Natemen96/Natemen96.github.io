@@ -141,6 +141,12 @@ January 2020 - February 2020
 Designed a Software-Defined Network (SDN) using Python and threads. The SDN featured various clients and a server that
 ran route computations and kept track of network topology as clients and/or links failed.
 
+**[Computer Organization:  Web Controlled Dog Feeder](https://github.com/Natemen96/Web-Controlled-Dog-Feeder)**
+
+March 2018 - May 2018
+
+Collaborated with a fellow Computer Engineer student to create Web Controlled Dog Feeder using a FPGA, Arduino, Force Sensitive Resistor, Continuous Rotation Servo, 3D printing, and lighttpd webserver.
+
 **[Capstone Design: Smart PDU (sponsored by Acumentrics)](https://web.uri.edu/elecomp-capstone/files/ELECOMP-Summit-2018-Acumentrics.pdf)**
 
 October 2017 - May 2018
