@@ -5,9 +5,9 @@ redcarpet:
   extensions: ["strikethrough"]
 katex: true
 permalink: /blog/:year/:month/:day/:title
-baseurl: ""
+baseurl: "/"
 url: "https://Natemen96.github.io"
 
 
 # theme: jekyll-theme-dinky
-remote_theme: pages-themes/dinky
+# remote_theme: pages-themes/dinky

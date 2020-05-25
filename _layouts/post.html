@@ -7,8 +7,12 @@ layout: default
 <div class="post">
   {{ content }}
 </div>
-
-<!-- Post comments -->
-<div class="notecomments">
-  {% include comment.html %}	 
-</div>
+<!-- If no comment id on post (markdown header), then comment section won't show -->
+<section class="single">
+	<div class="wrap">
+		<!-- {{ page.content }} -->
+		{% if page.comment_id %} 
+			{% include comment.html %}
+		{% endif %}
+	</div>
+</section>

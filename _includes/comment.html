@@ -1,6 +1,8 @@
+<script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
 <script>
-    const GH_API_URL = 'https://api.github.com/repos/Natemen96/Natemen96.github.io/issues/1/comments';
-    
+    // const GH_API_URL = 'https://api.github.com/repos/Natemen96/Natemen96.github.io/issues/1/comments';
+    const GH_API_URL = 'https://api.github.com/repos/Natemen96/Natemen96.github.io/issues/{{ page.comment_id }}/comments'; // ?client_id={{ site.data.settings.gh_api.ci }}&client_secret={{ site.data.settings.gh_api.cs }}
+
     let request = new XMLHttpRequest();
     request.open( 'GET', GH_API_URL, true );
     request.onload = function() {
@@ -39,6 +41,12 @@
         commentContents.classList.add( 'comment-content' );
         commentContents.innerHTML = response.body;
     
+        // Progressive enhancement.
+        if (window.showdown) {
+            let converter = new showdown.Converter();
+            commentContents.innerHTML = converter.makeHtml(response.body);
+        }
+
         let comment = document.createElement( 'li' );
         comment.setAttribute( 'data-created', response.created_at );
         comment.setAttribute( 'data-author-avatar', response.user.avatar_url );
@@ -52,11 +60,13 @@
     }
     request.send();
     </script>
-    
-    <hr>
-    
+
     <div class="github-comments">
+        <!-- Adapted from https://aristath.github.io/blog/static-site-comments-using-github-issues-api -->
         <h2>Comments</h2>
         <ul id="gh-comments-list"></ul>
-        <p id="leave-a-comment">Join the discussion for this article on <a href="https://github.com/Natemen96/Natemen96.github.io/issues/1">this ticket</a>. Comments appear on this page instantly.</p>
+        <p id="leave-a-comment">Join the discussion for this article on <a href="https://github.com/Natemen96/Natemen96.github.io/issues/{{ page.comment_id }}">this ticket</a>. Comments appear on this page instantly.</p>
+        <!-- <div class="buttonArea">
+          <a target="_blank" href="https://github.com/Natemen96/Natemen96.github.io/issues/{{ page.comment_id }}" class="button">Post comment (Github)</a>
+        </div> -->
     </div>
