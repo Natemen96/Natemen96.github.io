@@ -44,8 +44,11 @@ ul.posts li { list-style: none; }
 .cv .download { float: right; font-size: .8em; text-transform: uppercase; }
 
 /* Interactive Part*/
+/* Not working */
 /* a img { display:none; }
 a:hover img { display:block; } */
+
+
 
 /*CONTACT*/  
 .contact {
@@ -96,3 +99,5 @@ a:hover img { display:block; } */
 .jumbotron .btn { font-size: 21px; padding: 14px 24px; }
 .marketing p { line-height: 25px; margin-bottom: 10px; margin-top: 10px; }
 .marketing p.lead { line-height: 30px; margin-bottom: 10px; margin-top: 10px;}
+
+
