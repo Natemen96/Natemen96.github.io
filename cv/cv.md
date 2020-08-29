@@ -4,11 +4,23 @@ title: Interactive CV
 permalink: /cv/
 ---
 
-<a href="NateCV.pdf" class="download" markdown ='1' title="Download CV as PDF">Download my Standard CV</a>
+Below includes a shorter version of my CV with clickable links.
+<!-- #TODO: Make Text Smaller -->
+<a href="NateCV.pdf" class="download" markdown ='1' title="Download CV as PDF">Download my Full CV</a>
+
+- [Education](#education)
+- [Technical Proficiencies](#technical-proficiencies)
+- [Experience](#experience)
+- [Projects](#projects)
+- [Leadership Experience](#leadership-experience)
+- [Volunteer Experience & STEM Outreach](#volunteer-experience--stem-outreach)
+- [Honors & Awards](#honors--awards)
+- [Certifications](#certifications)
 
 ## Education
 
 **Purdue University — West Lafayette, Indiana**
+
 December 2019 - Present
 
 *Masters of Science in Electrical & Computer Engineering (Class of 2021)*
@@ -18,6 +30,7 @@ December 2019 - Present
 *Member of Eta Kappa Nu (HKN) — B Chapter*
 
 [**University of Rhode Island — Kingston, Rhode Island**](https://www.uri.edu/features/major-choices-engineering/) 
+
 August 2014 - May 2019
 
 *Bachelor of Science in Computer Engineering, Electrical Engineering and a Minor in Mathematics and Computer Science*
@@ -26,13 +39,13 @@ August 2014 - May 2019
 
 *Member of Theta Tau (ΘT) — ΣΓ Chapter*
 
-**University of Ghana, Legon — Accra, Ghana**
+<!-- **University of Ghana, Legon — Accra, Ghana**
 
 May 2016 - August 2016
 
 *University Studies Abroad Consortium (USAC)*
 
-*Gilman Scholar*
+*Gilman Scholar* -->
 
 ## Technical Proficiencies
 
@@ -67,14 +80,14 @@ June 2019 - August 2019
 * Created and managed a testbed to explore deployment of a new scheduler and resource mangers, Slurm, for all HPC systems at MITRE.
 * Developed initial documentation for installation processes to be leverage by HPC systems admins for future use
 
-**Zebra Technologies — Lincoln, RI**
+<!-- **Zebra Technologies — Lincoln, RI**
 
 June 2018 - September 2018
 
 **Custom Applications Group, Software Engineering Intern**
 
 * Designed, coded, debugged, and tested software, software improvements, and software modifications to improve Zebra Technologies' internal ecosystem
-* Tested designs and code under specified and/or reasonable conditions for various sponsors
+* Tested designs and code under specified and/or reasonable conditions for various sponsors -->
 
 **University of Rhode Island College of Engineering — Kingston, RI**
 
@@ -85,7 +98,7 @@ March 2017 – May 2019
 * Researched with undergraduate and graduate assistants for Professor Mankodiya (Wearable Body Sensor and Internet of Things Expert).
 * Worked with Internet of Things (IoT) devices and various programming languages.
 
-**General Dynamics Electric Boat – Groton, CT**
+<!-- **General Dynamics Electric Boat – Groton, CT**
 
 May 2017 - August 2017
 
@@ -129,17 +142,16 @@ June 2011 - August 2011
 
 * Assembled and organized displays on a daily basis.
 * Issued receipts, refunds, credits or change due to customers.
-* Greeted customers as they entered the store, assisted politely and efficiently to find various items in the store.
-
+* Greeted customers as they entered the store, assisted politely and efficiently to find various items in the store. -->
 
 ## Projects
 
-**Computer Network Systems: Software-Defined Network**
+<!-- **Computer Network Systems: Software-Defined Network**
 
 January 2020 - February 2020
 
 Designed a Software-Defined Network (SDN) using Python and threads. The SDN featured various clients and a server that
-ran route computations and kept track of network topology as clients and/or links failed.
+ran route computations and kept track of network topology as clients and/or links failed. -->
 
 **[Computer Organization:  Web Controlled Dog Feeder](https://github.com/Natemen96/Web-Controlled-Dog-Feeder)**
 
@@ -168,7 +180,7 @@ September 2017 - December 2017
 Led a small team of engineers to construct a product with the functionality to receive UV light and transmit data to a user’s
 smartphone using UV sensors, Arduino Uno, Bluetooth Low Energy, and Android Studio.
 
-**Internet of Things Research: Communication Organization**
+<!-- **Internet of Things Research: Communication Organization**
 
 March 2017 - May 2017
 
@@ -179,7 +191,7 @@ was able to send pseudo values through the Edison to a Computer using Node.js.
 
 March 2017 - May 2017
 
-Utilized Quartus to design a TRON Project on a DE1-SoC-MTL board, with four types of AIs that have different “personalities” using VHDL along with a full flow graph and full state diagram of the system
+Utilized Quartus to design a TRON Project on a DE1-SoC-MTL board, with four types of AIs that have different “personalities” using VHDL along with a full flow graph and full state diagram of the system -->
 
 ## Leadership Experience
 
