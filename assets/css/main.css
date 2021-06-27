@@ -1,4 +1,6 @@
---- --- @import "{{ site.theme }}";
+--- 
+--- 
+@import "{{ site.theme }}";
 body {
     margin: 60px auto;
     width: 70%;
@@ -94,11 +96,6 @@ ul.posts {
 }
 
 ul.posts li {
-    list-style: none;
-    font-size: 1em;
-}
-
-ul.post li {
     list-style: none;
     font-size: 1em;
 }
