@@ -15,7 +15,7 @@ a:hover {
 
 p,
 ul {
-    font-size: 1em;
+    font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
 }
@@ -95,6 +95,7 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+    font-size: 1.5em;
 }
 
 
